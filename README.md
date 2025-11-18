@@ -3,7 +3,15 @@ This repository contains code for creating the network visualizations in the pap
 
 
 ## Installation
-To use this layout you can directly `pip install` from this repository using
+Before using `kcore-viz`, you will need to install `graph-tool` as explained [here](https://graph-tool.skewed.de/installation.html). If you are using `conda` you can
+
+```bash
+conda create -n vizenv python=3.11
+conda install -c conda-forge graph-tool=2.97
+conda activate vizenv
+```
+
+Then you can directly `pip install` from this repository using
 
 ```bash
 pip install "git+https://github.com/moritz-laber/kcore-viz"
