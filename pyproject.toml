@@ -3,7 +3,7 @@ name = "kcore-viz"
 version = "1.0.0"
 description = "Network visualization (a la LaNet-vi) based on the k-core decomposition."
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 license = { text = "MIT" }
 
 authors = [
