@@ -1,6 +1,10 @@
 ### IMPORTS ###
-import graph_tool as gt
-from graph_tool.all import *
+try:
+    import graph_tool as gt
+    from graph_tool.all import *
+except:
+    raise ImportError("graph-tool is required for kcore-viz. Please install it from https://graph-tool.skewed.de/.")
+
 from matplotlib.colors import Colormap, to_rgba, to_hex
 from matplotlib import colormaps
 import numpy as np
