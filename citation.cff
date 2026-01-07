@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+title: "k-Core Visualizations"
+type: software
+message: "If you use this work, please cite the paper below."
+authors:
+  - given-names: Moritz
+    family-names: Laber
+repository-code: "https://github.com/moritz-laber/kcore-viz"
+
+preferred-citation:
+  type: article
+  title: "Deterministic Construction of Typical Networks in Network Models"
+  authors:
+  - given-names: Narayan
+    family-names: Sabhahit
+  - given-names: Moritz
+    family-names: Laber
+  - given-names: Harrison
+    family-names: Hartle
+  - given-names: Jasper
+    family-names: van der Kolk
+  - given-names: Samuel
+    family-names: Scarpino
+  - given-names: Brennan
+    family-names: Klein
+  - given-names: Dima
+    family-names: Krioukov
+  journal: "arXiv"
+  year: 2025
+  eprint: "arXiv:2512.02254"
+  url: "https://arxiv.org/abs/2512.02254"

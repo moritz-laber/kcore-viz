@@ -1,6 +1,18 @@
 # k-Core Visualizations
-This repository contains code for creating the network visualizations in the paper *Deterministic Construction of Typical Networks in Network Models* and a brief tutorial on how to use it. The visualization algorithm is based on [LaNetVI](https://en.wikipedia.org/wiki/LaNet-vi) by [Alvarez-Hamelin et al. (NeurIPS, 2005)](https://papers.nips.cc/paper_files/paper/2005/hash/b19aa25ff58940d974234b48391b9549-Abstract.html).
+This repository contains code for creating the network visualizations in the paper [*Deterministic Construction of Typical Networks in Network Models*](https://arxiv.org/abs/2512.02254) and a brief tutorial on how to use it. The visualization algorithm is based on [LaNetVI](https://en.wikipedia.org/wiki/LaNet-vi) by [Alvarez-Hamelin et al. (NeurIPS, 2005)](https://papers.nips.cc/paper_files/paper/2005/hash/b19aa25ff58940d974234b48391b9549-Abstract.html).
 
+If you use this software please cite the following article:
+
+```bibtex
+@article{sabhahit2025_deterministic,
+  title = {Deterministic Construction of Typical Networks in Network Models},
+  author = {Sabhahit, Narayan G. and Laber, Moritz and Hartle, Harrison and van der Kolk, Jasper and Scarpino, Samuel V. and Klein, Brennan and Krioukov, Dmitri},
+  year = {2025},
+  month = {12},
+  journal = {arXiv},
+  doi = {10.48550/arXiv.2512.02254},
+}
+```
 
 ## Installation
 Before using `kcore-viz`, you will need to install `graph-tool` as explained [here](https://graph-tool.skewed.de/installation.html). If you are using `conda` you can
